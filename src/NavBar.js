@@ -5,12 +5,10 @@ import './App.css'
 
 const NavBar = () => {
     return (
-        <nav>
-            <div className='container'>
-                <img src='./Fill 213.png' alt='logo-img' className='logo-image' />
-                <h2 className='topic'>My Travel Journal</h2>
+        <nav className='navbar'>
+            <img src='./Fill 213.png' alt='logo-img' className='logo-image' />
+            <h2 className='topic'>My Travel Journal</h2>
 
-            </div>
         </nav>
     )
 }

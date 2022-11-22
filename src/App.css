@@ -1,26 +1,47 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   background-color: #ffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-nav {
+.navbar {
   height: 55px;
   background-color: #f55a5a;
-}
-.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f55a5a;
 }
+
 .logo-image {
   margin: 5px;
   width: 40px;
+  border-radius: 5px;
   background-color: #f55a5a;
 }
 .topic {
   background-color: #f55a5a;
   color: antiquewhite;
+}
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin: 10px;
+  padding: 10px;
+  max-width: 700px;
+  display: flex;
+}
+.logo {
+  width: 10px;
+  margin-left: 5px;
+}
+.container-Image {
+  width: 400px;
+  height: 25vh;
+}
+.overflow {
+  overflow-x: scroll;
 }
