@@ -24,7 +24,7 @@
   color: antiquewhite;
 }
 .container {
-  background-color: black;
+  background-color: whitesmoke;
   display: flex;
   justify-content: center;
 }
@@ -33,15 +33,23 @@
   padding: 10px;
   max-width: 700px;
   display: flex;
+  border-radius: 5px;
+  box-shadow: 7px 7px 7px rgb(114, 93, 93);
 }
 .logo {
   width: 10px;
-  margin-left: 5px;
+  margin: 0 5px;
 }
 .container-Image {
-  width: 400px;
+  width: 300px;
   height: 25vh;
+  border: 1px solid #fb4242;
+  border-radius: 10px;
 }
 .overflow {
   overflow-x: scroll;
+}
+.data-container {
+  margin: 10px;
+  gap: 1px;
 }
