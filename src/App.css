@@ -4,6 +4,7 @@
   font-size: 1rem;
   background-color: #ffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 .navbar {
   height: 55px;
@@ -43,13 +44,17 @@
 .container-Image {
   width: 300px;
   height: 25vh;
-  border: 1px solid #fb4242;
   border-radius: 10px;
+  box-shadow: 4px 4px 4px rgb(114, 93, 93);
 }
 .overflow {
   overflow-x: scroll;
+  overflow-x: hidden;
 }
 .data-container {
   margin: 10px;
   gap: 1px;
+}
+.paragraf {
+  font-weight: 600;
 }

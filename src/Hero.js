@@ -15,11 +15,11 @@ const Hero = (props) => {
 
                     </span>
                     <span>
-                        {props.country}
+                        <b>{props.country}</b>
                     </span><br />
-                    <h1>{props.city}</h1><br />
-                    <span>{props.date}</span><br /><br />
-                    <p>{props.info}</p><br />
+                    <h1><b>{props.city}</b></h1><br />
+                    <span><b>{props.date}</b></span><br /><br />
+                    <p className='paragraf'>{props.info}</p><br />
 
                 </div>
 
