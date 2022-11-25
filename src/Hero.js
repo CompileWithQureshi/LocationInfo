@@ -5,11 +5,11 @@ import logo from './Fill 219.jpg'
 
 
 const Hero = (props) => {
-    const { img, country, city, date, info } = props
+    const { image, country, city, date, info } = props
     return (
         <div className='container'>
             <div className='card'>
-                <img src={img} alt='Img-of-the-place' className='container-Image' />
+                <img src={image} alt='Img-of-the-place' className='container-Image' />
                 <div className='data-container'>
                     <span>
                         <img src={logo} alt='logo-img' className='logo' />
