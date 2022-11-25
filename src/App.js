@@ -8,7 +8,7 @@ const App = () => {
     const cards = data.map(item => {
         return (
             <Hero
-                key={item.id}
+                key={item.country}
                 {...item}
             />
 
